@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./js.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="loader" id="loader">
+        <div class="logo"></div>
+        <div class="loading-text">Buffering...</div>
+    </div>
+    
+    <div class="navbar" id="main-content">
+        <img src="./image/logo.jpg" alt="" height="55px" width="55px">
+        <ul class="nav-links">
+            <div><li><a href="#">Home</a></li></div>
+            <div><li><a href="#">Bollywood</a></li></div>
+            <div><li><a href="#">Hollywood</a></li></div>
+            <div><li><a href="#">South Hindi Dubs</a></li></div>
+            <div><li><a href="#">Web Series</a></li></div>
+            <div><li><a href="#">18+</a></li></div>
+            <li class="dropdown">
+                <a href="#">GENREs &#9662;</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Drama</a></li>
+                    <li><a href="#">Comedy</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">More &#9662;</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="search-bar">
+            <input type="text" placeholder="Search here...">
+        </div>
+        <button class="menu-btn"><img src="./image/icons8-menu-bar-50.png" alt="Menu Icon"></button>
+    </div>
+    
+    <!-- The sliding menu that appears from the right -->
+    
+    
+
+    <div class="image-gallery">
+        <div class="scroll-container">
+            <!-- Original Set of Images -->
+            <img src="./image/movie-img/dark.jpg" alt="Movie 1">
+            <img src="./image/movie-img/lucky-bhaskar.jpg" alt="Movie 2">
+            <img src="./image/movie-img/Pushpa_2-_The_Rule.jpg" alt="Movie 3">
+            <img src="./image/movie-img/signham-again.jpg" alt="Movie 4">
+            <img src="./image/movie-img/tannav.jpg" alt="Movie 5">
+            <img src="./image/movie-img/v.jpg" alt="Movie 6">
+            <img src="./image/movie-img/bhool.jpg" alt="Movie 7">
+
+            <!-- Duplicate Set of Images -->
+            <img src="./image/movie-img/dark.jpg" alt="Movie 1">
+            <img src="./image/movie-img/lucky-bhaskar.jpg" alt="Movie 2">
+            <img src="./image/movie-img/Pushpa_2-_The_Rule.jpg" alt="Movie 3">
+            <img src="./image/movie-img/signham-again.jpg" alt="Movie 4">
+            <img src="./image/movie-img/tannav.jpg" alt="Movie 5">
+            <img src="./image/movie-img/v.jpg" alt="Movie 6">
+            <img src="./image/movie-img/Pushpa_2-_The_Rule.jpg" alt="Movie 7">
+            <img src="./image/movie-img/dark.jpg" alt="Movie 1">
+            <img src="./image/movie-img/lucky-bhaskar.jpg" alt="Movie 2">
+            <img src="./image/movie-img/Pushpa_2-_The_Rule.jpg" alt="Movie 3">
+            <img src="./image/movie-img/signham-again.jpg" alt="Movie 4">
+            <img src="./image/movie-img/tannav.jpg" alt="Movie 5">
+            <img src="./image/movie-img/v.jpg" alt="Movie 6">
+            <img src="./image/movie-img/Pushpa_2-_The_Rule.jpg" alt="Movie 7">
+            <img src="./image/movie-img/dark.jpg" alt="Movie 1">
+            <img src="./image/movie-img/lucky-bhaskar.jpg" alt="Movie 2">
+            <img src="./image/movie-img/Pushpa_2-_The_Rule.jpg" alt="Movie 3">
+            <img src="./image/movie-img/signham-again.jpg" alt="Movie 4">
+            <img src="./image/movie-img/tannav.jpg" alt="Movie 5">
+            <img src="./image/movie-img/v.jpg" alt="Movie 6">
+            <img src="./image/movie-img/Pushpa_2-_The_Rule.jpg" alt="Movie 7">
+            
+        </div>
+    </div>
+
+    <div class="container">
+        <img class="bg-img" src="./image/movie-img/p2.jpg" alt="Pushpa 2 - The Rule">
+        <h1>Pushpa-2 The Rule</h1>
+        <p>Stream here only!</p>
+        <div class="meta">
+            <span><strong>Cast:</strong> Anna Romason</span>
+            <span><strong>Genre:</strong> Action, Animation, Family</span>
+            <span><strong>Tag:</strong> 4K Ultra, Brother, Dubbing</span>
+        </div>
+        <a href="" onclick="confirmDownload(event, './video/222.mp4')">Download</a>
+    </div>
+    
+
+    
+    <div class="grid-container">
+        <div class="card">
+            <img src="./image/movie-img/bhool.jpg" alt="Card Image">
+            <div class="card-title">Card Title 1</div>
+        </div>
+        <div class="card">
+            <img src="./image/movie-img/bagheera.jpg" alt="Card Image">
+            <div class="card-title">Card Title 2</div>
+        </div>
+        <div class="card">
+            <img src="./image/movie-img/lucky-bhaskar.jpg" alt="Card Image">
+            <div class="card-title">Card Title 3</div>
+        </div>
+        <div class="card">
+            <img src="./image/movie-img/Pushpa_2-_The_Rule.jpg" alt="Card Image">
+            <div class="card-title">Card Title 4</div>
+        </div>
+        <div class="card">
+            <img src="./image/movie-img/signham-again.jpg" alt="Card Image">
+            <div class="card-title">Card Title 5</div>
+        </div>
+        <div class="card">
+            <img src="./image/movie-img/tannav.jpg" alt="Card Image">
+            <div class="card-title">Card Title 6</div>
+        </div>
+        <div class="card">
+            <img src="./image/movie-img/v.jpg" alt="Card Image">
+            <div class="card-title">Card Title 7</div>
+        </div>
+        <div class="card">
+            <img src="./image/movie-img/bac-p.jpg" alt="">
+            <div class="card-title">Card Title 8</div>
+        </div>
+        <div class="card">
+            <img src="./image/movie-img/fastx.jpg" alt="Card Image">
+            <div class="card-title">Card Title 9</div>
+        </div>
+        <div class="card">
+            <img src="./image/movie-img/p1.jpg" alt="Card Image">
+            <div class="card-title">Card Title 10</div>
+        </div>
+        <div class="card">
+            <img src="./image/movie-img/pathaan.jpg" alt="Card Image">
+            <div class="card-title">Card Title 11</div>
+        </div>
+        <div class="card">
+            <img src="./image/movie-img/scam.jpg" alt="Card Image">
+            <div class="card-title">Card Title 12</div>
+        </div>
+        <div class="card">
+            <img src="./image/movie-img/signham-again.jpg" alt="Card Image">
+            <div class="card-title">Card Title 13</div>
+        </div>
+        <div class="card">
+            <img src="./image/movie-img/bagheera.jpg" alt="Card Image">
+            <div class="card-title">Card Title 14</div>
+        </div>
+        <div class="card">
+            <img src="./image/movie-img/crow.jpg" alt="Card Image">
+            <div class="card-title">Card Title 15</div>
+        </div>
+        <div class="card">
+            <img src="./image/movie-img/fastx.jpg" alt="Card Image">
+            <div class="card-title">Card Title 9</div>
+        </div>
+        
+    </div>
+
+    <div class="container">
+        <div class="box"  >1</div>
+        <div class="box" onclick="goToPage(2)">2</div>
+        <div class="box" onclick="goToPage(3)">3</div>
+        <div class="box" onclick="goToPage(4)">4</div>
+        <!-- Add more boxes if needed -->
+      </div>
+
+      <footer>
+        <div class="footer-content">
+          <div class="social-links">
+            <a href="https://www.instagram.com" target="_blank" class="social-icon instagram">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png" alt="Instagram">
+            </a>
+            <a href="https://www.facebook.com" target="_blank" class="social-icon facebook">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+            </a>
+            <a href="https://www.threads.net" target="_blank" class="social-icon threads">
+              <img src="./image/logo-thread.svg" alt="Threads">
+            </a>
+          </div>
+          
+          <div class="footer-details">
+            <p>Download your favorite movies from our website with ease and quality. We provide high-speed downloads and a wide range of movies from different genres.</p>
+            <p>&copy; 2024 Movie Download Website</p>
+          </div>
+        </div>
+      </footer>
+    
+</body>
+</html>
